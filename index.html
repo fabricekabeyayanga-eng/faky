@@ -7,14 +7,16 @@
   <meta name="theme-color" content="#000000">
   <link rel="manifest" href="manifest.json">
 </head>
+
 <body>
   <h1>Bienvenue sur FAKY</h1>
-  <p>Ceci est la version V1 de l'application.</p>
+  <p>Application immobilière.</p>
 
-  <!-- IMPORTANT : Service Worker -->
   <script>
     if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('service-worker.js');
+      navigator.serviceWorker.register('service-worker.js')
+      .then(() => console.log("Service Worker enregistré"))
+      .catch(err => console.log("Erreur SW", err));
     }
   </script>
 </body>
