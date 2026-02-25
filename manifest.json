@@ -1,12 +1,12 @@
 {
   "name": "FAKY",
   "short_name": "FAKY",
-  "description": "Application immobilière permettant de contacter rapidement un agent via WhatsApp.",
-  "start_url": "/faky/",
+  "start_url": "/faky/index.html",
   "display": "standalone",
   "background_color": "#000000",
   "theme_color": "#000000",
   "orientation": "portrait",
+  "description": "Application immobilière FAKY",
   "icons": [
     {
       "src": "icon-192.png",
